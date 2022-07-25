@@ -1,12 +1,20 @@
 <script setup>
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
-import HelloWorld from './components/HelloWorld.vue'
+import Card1 from './components/Card1.vue'
+
 </script>
 
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + Vite" />
+  <container class="flex flex-col h-full w-full overflow-hidden">
+    <div class="flex flex-col h-1/2 items-center content-center space-y-4 overflow-y-auto">
+      <Card1 />
+      <Card1 />
+      <Card1 />
+    </div>
+
+  </container>
+
 </template>
 
 <style>
