@@ -6,15 +6,13 @@ import Card1 from './components/Card1.vue'
 </script>
 
 <template>
-  <container class="flex flex-col h-full w-full overflow-hidden">
-    <div class="flex flex-col h-1/2 items-center content-center space-y-4 overflow-y-auto">
+  <div class="container flex flex-col h-screen items-center justify-center overflow-y-hidden ">
+    <div class="artboard phone-3 flex h-full flex-col items-center justify-center space-y-4 overflow-y-scroll">
       <Card1 />
       <Card1 />
       <Card1 />
     </div>
-
-  </container>
-
+  </div>
 </template>
 
 <style>
